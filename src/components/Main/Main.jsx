@@ -10,7 +10,7 @@ const{OnSent, recentPrompt,showResult,loading,resultData,setInput,input} = useCo
   return (
     <div className='main'>
         <div className="nav">
-            <p>Gemini</p>
+            <p>Scoobi</p>
             <img src={assets.user_icon} alt=''/>
         </div>
       <div className="main-container">
@@ -18,7 +18,7 @@ const{OnSent, recentPrompt,showResult,loading,resultData,setInput,input} = useCo
       {!showResult
       ?<>
       <div className="greet">
-            <p><span>Hello, Sahil.</span></p>
+            <p><span>Welcome,</span></p>
             <p>How can I help you today?</p>
         </div>
         <div className="cards">
